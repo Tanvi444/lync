@@ -1,0 +1,43 @@
+.nav_main {
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  gap: 100px;
+  padding-top: 20px;
+}
+
+.part_1 {
+  display: flex;
+}
+
+.part_2 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+button {
+  height: 40px;
+  padding-inline: 15px;
+  color: black;
+  border-radius: 5px !important;
+  color: white;
+  background-color: transparent;
+}
+
+.border-gradient {
+  border-width: 2px;
+  border-radius: 5px !important;
+  border-style: solid;
+  -o-border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
+     border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+button:hover {
+  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+}/*# sourceMappingURL=navbar.css.map */
