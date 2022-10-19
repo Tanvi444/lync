@@ -1,0 +1,30 @@
+.discbox{
+    height: 300px;
+    width: 220px;
+    padding: 20px;
+}
+.discimg{
+    display: flex;
+    justify-content: center;
+}
+.disc_image{
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+}
+.circular_image{
+    margin-top: -35px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50% !important;
+}
+.names{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+.names1{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}

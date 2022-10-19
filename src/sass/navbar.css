@@ -1,24 +1,40 @@
 .nav_main {
   display: flex;
   color: white;
-  justify-content: space-around;
+  padding-inline: 7vw;
+  justify-content: space-between;
   gap: 100px;
+  align-items: center;
   padding-top: 20px;
 }
 
+.logo_name {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.fa-bars {
+  display: none;
+  font-size: 3rem;
+  cursor: pointer;
+}
+
 .part_1 {
+  align-items: center;
   display: flex;
 }
 
 .part_2 {
+  color: rgb(231, 221, 221);
   display: flex;
+  font-size: 18px;
   gap: 40px;
   align-items: center;
 }
 
 button {
   height: 40px;
-  padding-inline: 15px;
+  padding-inline: 18px;
   color: black;
   border-radius: 5px !important;
   color: white;
@@ -26,11 +42,8 @@ button {
 }
 
 .border-gradient {
-  border-width: 2px;
-  border-radius: 5px !important;
-  border-style: solid;
-  -o-border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
-     border-image: linear-gradient(to left, #743ad5, #d53a9d) 1;
+  border: 2px solid red;
+  border-radius: 7px;
 }
 
 .logo {
@@ -39,5 +52,27 @@ button {
 }
 
 button:hover {
-  background-image: linear-gradient(to left, #743ad5, #d53a9d);
+  background-image: linear-gradient(130deg, #743ad5, #d53a9d);
+}
+
+.part_2 p:hover {
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .fa-bars {
+    float: right;
+    display: block;
+  }
+  .after-toggle-navbar {
+    display: block;
+    position: relative;
+    top: 100px;
+  }
+  .after-toggle-navbar > p {
+    padding: 1rem 0;
+  }
+  .none-display {
+    display: none;
+  }
 }/*# sourceMappingURL=navbar.css.map */

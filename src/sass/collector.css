@@ -1,0 +1,71 @@
+.fa-angle-down {
+  font-size: 20px;
+  font-weight: 600;
+  color: linear-gradient(130deg, #743ad5, #d53a9d);
+  background: linear-gradient(130deg, #743ad5, #d53a9d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: -15px;
+  padding-inline: 4px;
+  border-radius: 50%;
+  border: 2px solid red;
+}
+
+.collectorgrid {
+  gap: 30px;
+  margin-top: 50px;
+  margin-inline: 7vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.collector_grid {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  width: 30%;
+}
+
+.readmore {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.readmore button {
+  font-size: 15px;
+  border: none;
+  background-image: linear-gradient(130deg, #d53a9d, #743ad5);
+}
+
+.collector_img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.collector_grid .flex2 {
+  gap: 20px;
+}
+
+.flex2 {
+  align-items: center;
+  color: white;
+  display: flex;
+}
+
+.rate {
+  background: linear-gradient(130deg, #743ad5, #d53a9d);
+  color: white;
+  padding: 5px 8px;
+  border-radius: 50px;
+}
+
+.dollar {
+  color: rgb(231, 221, 221);
+  margin-top: 5px;
+  font-size: 12px;
+}/*# sourceMappingURL=collector.css.map */
