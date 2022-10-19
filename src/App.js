@@ -1,11 +1,11 @@
 import './App.css';
-import Navbar from "./navbar.js";
-import Cmp from './cmp.js'
+import Navbar from "./Components/navbar.js";
+import Main from './Components/main.js'
 function App() {
   return (
    <>
    <Navbar/>
-   <Cmp/>
+   <Main/>
    </>
   );
 }

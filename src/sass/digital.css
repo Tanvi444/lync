@@ -1,0 +1,48 @@
+.digitalmain {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  flex-wrap: wrap;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-inline: 7vw;
+  gap: 200px;
+}
+
+.left {
+  width: 52%;
+}
+
+.left h1 {
+  font-size: 40px;
+}
+
+.left p {
+  font-size: 18px;
+  color: #878791;
+  font-weight: 400;
+}
+
+.upper {
+  margin-top: 30px;
+}
+
+.right img {
+  height: 300px;
+  width: 300px;
+}
+
+.right {
+  display: flex;
+}
+
+.down {
+  position: relative;
+  transform: rotate(15deg);
+}
+
+.up {
+  position: absolute;
+  transform: rotate(345deg);
+}/*# sourceMappingURL=digital.css.map */

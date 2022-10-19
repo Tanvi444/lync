@@ -30,8 +30,13 @@
 
 .grid {
   flex-wrap: wrap;
+  justify-content: center;
   display: flex;
-  justify-content: space-between;
   margin-top: 50px;
   margin-inline: 7vw;
+  gap: 30px;
+}
+
+.live {
+  margin-top: 110px !important;
 }/*# sourceMappingURL=cmp.css.map */
