@@ -35,8 +35,6 @@
 button {
   height: 40px;
   padding-inline: 18px;
-  color: black;
-  border-radius: 5px !important;
   color: white;
   background-color: transparent;
 }

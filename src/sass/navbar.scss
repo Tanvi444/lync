@@ -1,77 +1,100 @@
-.nav_main{  
-    display: flex;  
-    color: white;  
+.nav_main {
+    display: flex;
+    color: white;
     padding-inline: 7vw;
-    justify-content: space-between;  
-    gap: 100px;  
-    align-items: center;  
-    padding-top: 20px; 
-}  
-.logo_name{  
-    font-size: 30px;  
-    font-weight: 500;  
-}  
- 
-.fa-bars{ 
-    display: none; 
-    font-size: 3rem; 
-    cursor: pointer; 
-} 
-.part_1{  
-    align-items: center;  
-    display: flex;  
-}  
-.part_2{  
-    color: rgb(231, 221, 221);  
-    display: flex;  
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo_name {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.fa-bars {
+    display: none;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.part_1 {
+    align-items: center;
+    display: flex;
+}
+
+.part_2 {
+    color: rgb(231, 221, 221);
+    display: flex;
     font-size: 18px;
-    gap: 40px;  
-    align-items: center;  
-}  
-button{  
-    height: 40px;  
-    padding-inline:18px;  
-    color: black;  
-    border-radius: 5px !important;  
-    color: white;  
-    background-color: transparent;  
-}  
-.border-gradient {  
+    gap: 40px;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    padding-inline: 18px;
+    color: white;
+    background-color: transparent;
+}
+
+.border-gradient {
     // border-width: 2px;  
     // border-radius: 5px !important;  
     // border-style: solid;  
     // border-image: linear-gradient(130deg, #743ad5, #d53a9d) 1;  
     border: 2px solid red;
     border-radius: 7px;
+    // position: relative;
+    // display: grid;
+    // place-content: center;
+    // padding: 0.5em 1em;
+    // border-radius: 5px;
+}
 
-  }  
-.logo{  
-    width: 50px;  
-    height: 50px;  
-}  
-button:hover {  
-    background-image: linear-gradient(130deg, #743ad5, #d53a9d);  
-  }  
-  .part_2 p:hover{  
-    color: white;  
-  } 
-   
- 
-@media (max-width:900px){ 
- 
-    .fa-bars{ 
+// .border-gradient::after {
+//     position: absolute;
+//     content: "";
+//     display: block;
+//     background: linear-gradient(130deg, #743AD5, #D53A9D);
+//     inset: -2px;
+//     border-radius: 7px;
+//     z-index: -1;
+// }
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+button:hover {
+    background-image: linear-gradient(130deg, #743ad5, #d53a9d);
+}
+
+.part_2 p:hover {
+    color: white;
+}
+
+
+@media (max-width:900px) {
+
+    .fa-bars {
         float: right;
-        display: block; 
-    } 
-    .after-toggle-navbar{ 
-        display: block; 
-        position: relative; 
-        top:100px; 
-    } 
-    .after-toggle-navbar> p{ 
-        padding: 1rem 0; 
-    } 
-    .none-display{ 
-    display: none; 
-  } 
+        display: block;
+    }
+
+    .after-toggle-navbar {
+        display: block;
+        position: relative;
+        top: 100px;
+    }
+
+    .after-toggle-navbar>p {
+        padding: 1rem 0;
+    }
+
+    .none-display {
+        display: none;
+    }
 }

@@ -20,16 +20,11 @@
     font-size: 30px;
     font-weight: 600;
     color: linear-gradient(130deg, #743ad5, #d53a9d);
-	background: linear-gradient(130deg, #743ad5, #d53a9d);;
+	background: linear-gradient(130deg, #743ad5, #d53a9d);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .grid{
-    // flex-wrap: wrap;
-    // display: flex;
-    // justify-content: space-between;
-    // margin-top: 50px;
-    // margin-inline: 7vw;
     flex-wrap: wrap;
     justify-content: center;
     display: flex;
