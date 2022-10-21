@@ -1,6 +1,7 @@
 .auctionbox {
   height: 350px;
   width: 220px;
+  background-color: #141a3f;
   padding: 20px;
 }
 
@@ -8,24 +9,22 @@
   display: flex;
   justify-content: center;
 }
+.discimg .disc_image {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+}
 
 .discborder {
   border-top-right-radius: 30px !important;
   border-bottom-left-radius: 30px !important;
 }
 
-.disc_image {
-  width: 100%;
-  height: 180px;
-  border-radius: 8px;
-}
-
 .auctioncircles {
   display: flex;
   margin-bottom: 20px;
 }
-
-.auction_circles {
+.auctioncircles .auction_circles {
   width: 50px;
   border-radius: 50%;
   height: 50px;

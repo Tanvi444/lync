@@ -1,11 +1,11 @@
-.collection_grid {
-  height: 330px;
-  width: 31.25%;
-  color: white;
-}
-
 .collectiongrid {
   margin-bottom: 80px;
+}
+.collectiongrid .collection_grid {
+  height: 330px;
+  width: 360px;
+  color: white;
+  background-color: #141a3f;
 }
 
 .inpadding {
@@ -56,8 +56,5 @@
 
 .rate {
   float: right;
-}
-
-.btnn {
   padding: 8px 18px;
 }/*# sourceMappingURL=collection.css.map */

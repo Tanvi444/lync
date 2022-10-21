@@ -91,13 +91,16 @@ h2 {
   border-top-left-radius: 7px;
 }
 
+.newsletter {
+  width: 20vw;
+}
+
 .footer-button {
   background-image: linear-gradient(130deg, #743ad5, #d53a9d);
   color: white;
   border: none;
   font-size: 16px;
   padding: 8px 15px;
-  border-radius: 5px;
   height: 3.5rem;
   width: 6rem;
 }
@@ -113,6 +116,7 @@ h2 {
   display: flex;
   margin-top: 2rem;
   height: 3.5rem;
+  justify-content: space-between;
 }
 
 .last-footer {
@@ -129,19 +133,28 @@ h2 {
     flex-direction: column;
   }
   .box1, .box2, .box3, .box4 {
-    width: 50vw;
+    width: 40vw;
   }
   .box3-box4 {
     margin-top: 10px;
+    padding: 0;
+  }
+  .box1-box2, .box3-box4 {
+    width: 85vw;
   }
 }
 @media screen and (max-width: 750px) {
+  .footer {
+    padding: 0 0 0 2rem;
+    align-items: center;
+  }
   .box1, .box2, .box3, .box4 {
     margin: auto;
-    width: 70vw;
+    width: 50vw;
   }
   .box1-box2, .box3-box4 {
     flex-direction: column;
+    width: 50vw;
   }
   .box2 {
     padding-top: 10px;
@@ -152,5 +165,22 @@ h2 {
   }
   .footer-input {
     width: auto;
+  }
+  .newsletter {
+    width: 50vw;
+  }
+  .fa-instagram, .fa-twitter, .fa-facebook, .fa-youtube-play {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  .fa-facebook, .fa-pinterest-p {
+    font-size: 0.5rem;
+    padding: 0.5rem 0.6rem;
+  }
+  .last-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=footer.css.map */

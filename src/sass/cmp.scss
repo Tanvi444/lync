@@ -1,10 +1,14 @@
-.top_grid{
-    margin-top: 30px;
+@mixin common($justify) {
     display: flex;
+    justify-content: $justify;
+}
+.top_grid{
+    @include common(space-between);
+    margin-top: 30px;
     margin-inline: 7vw;
     font-size: 1.8rem;
+    background-color: #141a3f;
     color: white;
-    justify-content: space-between;
     font-weight: 500;
     padding: 2vw 2vw;
 }
@@ -25,9 +29,8 @@
 	-webkit-text-fill-color: transparent;
 }
 .grid{
+    @include common(center);
     flex-wrap: wrap;
-    justify-content: center;
-    display: flex;
     margin-top: 50px;
     margin-inline: 7vw;
     gap: 30px;

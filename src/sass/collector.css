@@ -11,6 +11,12 @@
   border: 2px solid red;
 }
 
+.fa-check {
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
 .collectorgrid, .collectiongrid {
   gap: 30px;
   margin-top: 50px;
@@ -26,6 +32,7 @@
   display: flex;
   flex-wrap: wrap;
   height: 100px;
+  background-color: #141a3f;
   width: 360px;
 }
 

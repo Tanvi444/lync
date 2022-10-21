@@ -6,7 +6,10 @@ const Collector = (props) => {
                 <div className='collector_grid border-gradient'>
                     <div className='flex2'>
                         <p>{props.id}</p>
+                        <div>
                         <img className='collector_img' src={props.image} />
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        </div>
                         <div>
                             <p>{props.name}</p>
                             <p className='dollar'>&#36;{props.amount}</p>

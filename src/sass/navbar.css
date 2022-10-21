@@ -3,7 +3,6 @@
   color: white;
   padding-inline: 7vw;
   justify-content: space-between;
-  gap: 100px;
   align-items: center;
   padding-top: 20px;
 }
@@ -31,12 +30,21 @@
   gap: 40px;
   align-items: center;
 }
+.part_2 :hover {
+  color: white;
+}
 
 button {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   height: 40px;
   padding-inline: 18px;
   color: white;
   background-color: transparent;
+}
+button:hover {
+  background-image: linear-gradient(130deg, #743ad5, #d53a9d);
 }
 
 .border-gradient {
@@ -47,14 +55,6 @@ button {
 .logo {
   width: 50px;
   height: 50px;
-}
-
-button:hover {
-  background-image: linear-gradient(130deg, #743ad5, #d53a9d);
-}
-
-.part_2 p:hover {
-  color: white;
 }
 
 @media (max-width: 900px) {

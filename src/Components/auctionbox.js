@@ -1,6 +1,5 @@
 import React from 'react'
 import '../sass/auctionbox.scss'
-import logo from "../images/logo.PNG"    
 const AuctionBox = (props) => {
     return (
         <div className='discborder border-gradient auctionbox'>
