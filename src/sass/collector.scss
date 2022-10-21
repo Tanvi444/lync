@@ -9,10 +9,18 @@
     padding-inline: 4px;
     border-radius: 50%;
 }
+.testt{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
 .fa-check{
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 50%;
-    font-size: 15px;
+    font-size: 10px;
+    padding: 3px;
+    background: linear-gradient(130deg, #743ad5, #d53a9d);
+    position: absolute;
 }
 .collectorgrid, .collectiongrid{
     // gap: 30px;
@@ -44,6 +52,7 @@
 }
 .readmore button{
     display: flex;
+    border-radius: 5px;
     align-items: center;
     font-size: 20px;
     padding: 28px 20px;

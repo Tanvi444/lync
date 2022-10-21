@@ -15,7 +15,8 @@ const Navbar = () => {
         <div className='nav_main'>  
             <div className='part_1'>  
                 <div> 
-                    <img className='logo' src={logo} /></div>  
+                    {/* <img className='logo' src={logo} /> */}
+                    </div>  
                 <div><p className='logo_name'>Axies</p></div>  
             </div>  
             <div className={toggle==0?'none-display part_2':'part_2 after-toggle-navbar'}>  

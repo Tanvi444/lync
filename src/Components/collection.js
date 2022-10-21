@@ -17,7 +17,10 @@ const Collection = (props) => {
                     </div>
                     <div className='collection_lower'>
                         <div className='lower_img' >
+                            <div className='testt'>
                             <img src={props.img} />
+                            <i class="fa fa-check" aria-hidden="true"></i>
+                            </div>
                             <p>{props.name}</p>
                         </div>
 

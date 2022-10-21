@@ -2,6 +2,9 @@
     display: flex;
     justify-content: $justify;
 }
+.borderwhite{
+    border: 1px solid white;
+}
 .top_grid{
     @include common(space-between);
     margin-top: 30px;
@@ -38,3 +41,14 @@
 .live{
     margin-top: 110px !important;
 }
+@media screen and (max-width: 600px){
+    .top_grid{
+        font-size: 1.3rem;
+    }
+    .view {
+        font-size: 1rem;
+    }
+    .fa-angle-down{
+        margin-left: -10px !important;
+    }
+} 

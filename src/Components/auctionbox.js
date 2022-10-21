@@ -4,9 +4,9 @@ const AuctionBox = (props) => {
     return (
         <div className='discborder border-gradient auctionbox'>
             <div className='auctioncircles '>
-            <img className='auction_circles border-gradient ' src={props.img1} />
-            <img className='auction_circles border-gradient ml1' src={props.img2} />
-            <img className='auction_circles border-gradient ml2' src={props.img3} />
+            <img className='auction_circles border-gradient borderwhite ' src={props.img1} />
+            <img className='auction_circles border-gradient ml1 borderwhite' src={props.img2} />
+            <img className='auction_circles border-gradient ml2 borderwhite' src={props.img3} />
             <p>{props.name}</p>
             </div>
         <div className='image_cont'>
