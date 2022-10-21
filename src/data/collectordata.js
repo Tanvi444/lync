@@ -1,7 +1,7 @@
-import img1 from "../images/logo.PNG"
-import img2 from "../images/logo.PNG"
-import img3 from "../images/logo.PNG"
-import img4 from "../images/logo.PNG"
+import img1 from "../images/1.jpg"
+import img2 from "../images/2.jpg"
+import img3 from "../images/3.jpg"
+import img4 from "../images/4.png"
 const CollectorData =[
     {
         id: 1,

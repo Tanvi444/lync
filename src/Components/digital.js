@@ -1,6 +1,7 @@
 import React from 'react'
 import '../sass/digital.scss'
-import logo from "../images/logo.PNG"
+import img1 from "../images/1.jpg"
+import img2 from "../images/2.jpg"
 const Digital = () => {
     return (
         <div className='digitalmain'>
@@ -14,8 +15,8 @@ const Digital = () => {
                 </p>
             </div>
             <div className='right'>
-            <img className='down' src={logo} />
-            <img className='up' src={logo} />
+            <img className='down' src={img1} />
+            <img className='up' src={img2} />
             </div>
         </div>
     )

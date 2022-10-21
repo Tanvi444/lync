@@ -46,9 +46,9 @@ const Cmp = () => {
         <p>Top Discover</p>
         <div className='view_main'>
           <p className='view'>Collections </p>
-          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-down border-gradient" aria-hidden="true"></i>
           <p className='view'>Last 7 days </p>
-          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <i class="fa fa-angle-down border-gradient" aria-hidden="true"></i>
         </div>
       </div>
       <div className='collectorgrid'>

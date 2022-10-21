@@ -29,6 +29,9 @@
 }
 .right{
     display: flex;
+    img{
+        border-radius: 7px;
+    }
 }
 .down{
     position: relative;
