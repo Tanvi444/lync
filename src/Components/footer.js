@@ -32,7 +32,6 @@ export default function footer() {
       </div>
 
       <div className="box2">
-
         <h2>Other Pages</h2>
         <div>
         <div> <i class="fa fa-chevron-right" aria-hidden="true"></i>Home</div>

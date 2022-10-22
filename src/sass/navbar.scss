@@ -79,3 +79,23 @@ button {
         display: none;
     }
 }
+@media (max-width:415px) {
+    .nav_main{
+        margin-bottom: 90px;
+    }
+    .part_2{
+        flex-direction: column;
+        margin-bottom: -60px;
+        gap: 15px;
+    }
+    .right img{
+        height: 250px !important;
+        width: 250px !important;
+    }
+    .view_main{
+        flex-direction: column;
+    }
+    .collector_grid{
+        width: 300px !important;
+    }
+}

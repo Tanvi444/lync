@@ -5,9 +5,14 @@
 .borderwhite{
     border: 1px solid white;
 }
+.flexx{
+    display: flex;
+    gap: 10px;
+}
 .top_grid{
     @include common(space-between);
     margin-top: 30px;
+    align-items: center;
     margin-inline: 7vw;
     font-size: 1.8rem;
     background-color: #141a3f;

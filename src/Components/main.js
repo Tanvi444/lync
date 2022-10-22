@@ -45,10 +45,14 @@ const Cmp = () => {
       <div className='top_grid border-gradient'>
         <p>Top Discover</p>
         <div className='view_main'>
+          <div className='flexx'>
           <p className='view'>Collections </p>
           <i class="fa fa-angle-down border-gradient" aria-hidden="true"></i>
+          </div>
+          <div className='flexx'>
           <p className='view'>Last 7 days </p>
           <i class="fa fa-angle-down border-gradient" aria-hidden="true"></i>
+          </div>
         </div>
       </div>
       <div className='collectorgrid'>
