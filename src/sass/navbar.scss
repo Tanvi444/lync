@@ -67,16 +67,22 @@ button {
         float: right;
         display: block;
     }
+    .part_2{
+        margin-top: 6px;
+    }
     .after-toggle-navbar {
         display: block;
+        margin-top: 50px;
         position: relative;
-        top: 100px;
     }
     .after-toggle-navbar>p {
         padding: 1rem 0;
     }
     .none-display {
         display: none;
+    }
+    .nav_main{
+        align-items: flex-start;
     }
 }
 @media (max-width:415px) {
@@ -97,5 +103,8 @@ button {
     }
     .collector_grid{
         width: 300px !important;
+    }
+    .after-toggle-navbar{
+        margin-top: 100px;
     }
 }
